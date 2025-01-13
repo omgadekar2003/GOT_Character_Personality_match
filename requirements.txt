@@ -1,4 +1,7 @@
-pandas
+streamlit
+requests
+pandas<2.0
 numpy
 scikit-learn
-streamlit
+
+
