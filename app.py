@@ -7,7 +7,7 @@ import numpy as np
 api_data = requests.get("https://thronesapi.com/api/v2/Characters").json()
 
 # Load dataset
-df = pickle.load(open('data.pkl', 'rb'))
+df = pickle.load(open('got_character_embeddings.pkl', 'rb'))
 df = df.head(25)
 
 # Correct character names
