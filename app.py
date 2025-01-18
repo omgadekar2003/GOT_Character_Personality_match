@@ -144,11 +144,11 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.header(f"Your Character: {selected_character}")
-    st.image(image_url, use_column_width=True)
+    st.image(image_url, use_container_width=True)
 
 with col2:
     st.header(f"Recommended Match: {recommended_character}")
-    st.image(recommended_character_image_url, use_column_width=True)
+    st.image(recommended_character_image_url, use_container_width=True)
 
 # Footer with additional info
 st.markdown('<div class="footer">Created by <b>Om Gadekar</b> | GitHub: <a href="https://github.com/omgadekar2003/GOT_Character_Personality_match" target="_blank">GOT Character Personality Matcher</a> | Email: <a href="mailto:omgadekar25@gmail.com">omgadekar25@gmail.com</a></div>', unsafe_allow_html=True)
